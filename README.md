@@ -1,2 +1,3 @@
 # shakespeare
-shit is about to get real! 
+POLONIUS: What do you read, my lord?  
+HAMLET: Words, words, words.  
