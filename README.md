@@ -1,5 +1,7 @@
 # Hamlet  
-Just playing with [Natural Language Toolkit](http://www.nltk.org/).   
+[NLTK](http://www.nltk.org/) projetct.
+Also using [sentiment_classifier](https://pypi.python.org/pypi/sentiment_classifier).  
+ 
 >POLONIUS: What do you read, my lord?  
 HAMLET: Words, words, words.  
 
