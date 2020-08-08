@@ -3,7 +3,6 @@
 > Polonius: What do you read, my lord?    
 > Hamlet: Words, words, words.
 
-   
 ## About  
 
 Hamlet is a chatbot built with [NLTK](https://www.nltk.org).  
