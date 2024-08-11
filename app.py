@@ -1,4 +1,3 @@
-# app.py
 import os
 from flask import Flask, render_template, request, jsonify, send_from_directory
 import nltk
@@ -9,24 +8,13 @@ from textblob import TextBlob
 import random
 import json
 
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__)
 
-# Set up custom NLTK data directory
-current_dir = os.path.dirname(os.path.abspath(__file__))
-nltk_data_dir = os.path.join(current_dir, 'data')
-os.makedirs(nltk_data_dir, exist_ok=True)
-nltk.data.path.append(nltk_data_dir)
-
-# Function to download NLTK data to custom directory
-def download_nltk_data(package):
-    nltk.download(package, download_dir=nltk_data_dir, quiet=True)
-
-# Download required NLTK data
-download_nltk_data('punkt')
-download_nltk_data('stopwords')
-download_nltk_data('wordnet')
-download_nltk_data('averaged_perceptron_tagger')
-download_nltk_data('punkt_tab')
+# Download NLTK data
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 # Load Shakespeare quotes
 with open('shakespeare.json', 'r') as f:
@@ -75,9 +63,9 @@ def chat():
     quote, source = get_response(user_message)
     return jsonify({'quote': quote, 'source': source})
 
-@app.route('/img/<path:filename>')
-def serve_image(filename):
-    return send_from_directory('static/img', filename)
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('static', path)
 
 if __name__ == '__main__':
     app.run(debug=True)
