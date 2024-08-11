@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamlet</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/skull-black.svg') }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="chat-header">
+            <div class="chat-header-content">
+                <img src="{{ url_for('static', filename='img/skull-white.svg') }}" alt="Hamlet's profile picture">
+                <span>Hamlet</span>
+            </div>
+        </div>
+        <div class="chat-container" id="chat-container"></div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            function addMessage(sender, message) {
+                var messageClass = sender === 'You' ? 'user-message' : 'bot-message';
+                var messageHtml = '<div class="message ' + messageClass + '">' + message + '</div>';
+                $('#chat-container').append(messageHtml);
+                $('#chat-container').scrollTop($('#chat-container')[0].scrollHeight);
+            }
+
+            $('#send-btn').click(function() {
+                var userMessage = $('#user-input').val();
+                if (userMessage.trim() !== '') {
+                    addMessage('You', userMessage);
+                    $.post('/get_response', {message: userMessage}, function(data) {
+                        var response = data.quote + ' <span class="source-link">*<span class="source-tooltip">' + data.source + '</span></span>';
+                        addMessage('HAMLET', response);
+                    });
+                    $('#user-input').val('');
+                }
+            });
+
+            $('#user-input').keypress(function(e) {
+                if (e.which == 13) {
+                    $('#send-btn').click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
