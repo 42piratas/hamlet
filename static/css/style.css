@@ -97,7 +97,7 @@ body {
     font-size: 1rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--fg);
+    color: var(--accent);
     margin: 0;
 }
 .chat-header-info {
@@ -386,7 +386,10 @@ body {
 
 /* ---------- Site footer (mirrors 42labs.io) ---------- */
 .site-footer {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sp-3);
     margin-top: var(--sp-4);
     color: var(--fg-muted);
     font-family: var(--font-body);
@@ -396,9 +399,36 @@ body {
     text-transform: uppercase;
     white-space: nowrap;
     flex-shrink: 0;
+}
+.site-footer-copy {
     cursor: default;
     -webkit-user-select: none;
     user-select: none;
+}
+.site-footer-sep {
+    color: var(--border);
+    -webkit-user-select: none;
+    user-select: none;
+}
+.site-footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--sp-1);
+    color: var(--fg-muted);
+    text-decoration: none;
+    transition: color 120ms ease;
+}
+.site-footer-link:hover { color: var(--accent); }
+.site-footer-link:focus-visible {
+    outline: none;
+    color: var(--accent);
+    border-radius: var(--r-2);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.site-footer-link svg {
+    width: 14px;
+    height: 14px;
+    display: block;
 }
 
 /* ---------- Mobile ---------- */

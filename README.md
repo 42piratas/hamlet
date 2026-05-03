@@ -16,10 +16,6 @@ Flask + jQuery front end; the server picks an apt quote from `shakespeare.json` 
 - Welcome modal (`Hark!`) shown once per browser via `localStorage`.
 - 42labs footer (`© 2026 42LABS`).
 
-### Design
-
-Forced dark theme, centered 760px column. Tokens, fonts, spacing follow the [42labs design system](https://42labs.io/design). See `static/css/style.css`.
-
 ### Run locally
 
 ```bash
