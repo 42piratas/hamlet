@@ -7,11 +7,18 @@ A chatbot that answers in Shakespeare quotes. Live at **<https://hamlet.42labs.i
 
 ### How it works
 
-Flask + jQuery front end; the server picks an apt quote from `shakespeare.json` using [NLTK](https://www.nltk.org) and [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment + tokenization, then returns `{quote, source}`.
+Flask + jQuery front end; the server picks an apt quote from `shakespeare.json` using [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment + a hand-rolled tokenizer, then returns `{quote, source}`. Built in 2016, kept online as an artifact of the pre-LLM era.
+
+### UI
+
+- IM-style speech bubbles: user on the right with a person avatar, Hamlet on the left with the Yorick-skull glyph.
+- Header with brand mark + an info button that re-opens the welcome modal.
+- Welcome modal (`Hark!`) shown once per browser via `localStorage`.
+- 42labs footer (`© 2026 42LABS`).
 
 ### Design
 
-Forced dark theme, terminal-style chat, centered 760px column. Tokens, fonts, spacing follow the [42labs design system](https://42labs.io/design). See `static/css/style.css`.
+Forced dark theme, centered 760px column. Tokens, fonts, spacing follow the [42labs design system](https://42labs.io/design). See `static/css/style.css`.
 
 ### Run locally
 

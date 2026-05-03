@@ -17,6 +17,16 @@
 </head>
 <body>
     <div class="app-container">
+        <header class="chat-header">
+            <h1 class="chat-title">HAMLET</h1>
+            <button id="info-btn" class="chat-header-info" type="button" aria-label="About">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="12" y1="16" x2="12" y2="12"/>
+                    <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+            </button>
+        </header>
         <div class="chat-container" id="chat-container"></div>
         <div class="input-area">
             <div class="input-row">
@@ -30,29 +40,91 @@
         </div>
     </div>
 
+    <div class="modal-backdrop" id="intro-modal" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+        <div class="modal-card">
+            <button class="modal-close" id="intro-close" type="button" aria-label="Dismiss">&times;</button>
+            <h2 class="modal-title" id="intro-title">Hark!</h2>
+            <p class="modal-body">'Twill seem strange to thee, but there was a day we had nor LLMs, nor GPTs, nor Claudes.</p>
+            <p class="modal-body">This humble engine was wrought back then, in the year 2016, by means of <a href="https://textblob.readthedocs.io/" target="_blank" rel="noopener">TextBlob</a> &mdash; a Python library that did parse sentiment and word; well-known in its hour, though hardly noble.</p>
+            <p class="modal-body">Its purpose was plain: speak thy mind, and Hamlet shall return thee a line of the Bard that shareth thy words and matcheth thy mood. No fancy, no feigning &mdash; but an honest search through the corpus of Shakespeare.</p>
+            <button class="modal-action" id="intro-dismiss" type="button">Speak on</button>
+        </div>
+    </div>
+
+    <footer class="site-footer">&copy; 2026 42LABS</footer>
+
     <script>
         $(document).ready(function() {
-            function addMessage(sender, message) {
-                var messageClass = sender === 'You' ? 'user-message' : 'bot-message';
-                var messageHtml = '<div class="message ' + messageClass + '">' + message + '</div>';
-                $('#chat-container').append(messageHtml);
-                $('#chat-container').scrollTop($('#chat-container')[0].scrollHeight);
+            // ----- Intro modal -----
+            var $modal = $('#intro-modal');
+            function openIntro() { $modal.addClass('is-open'); $('#intro-dismiss').focus(); }
+            function closeIntro() {
+                if (!$modal.hasClass('is-open')) return;
+                $modal.removeClass('is-open');
+                try { localStorage.setItem('hamlet_intro_seen', '1'); } catch (e) {}
+                $('#user-input').focus();
+            }
+            var seen = false;
+            try { seen = !!localStorage.getItem('hamlet_intro_seen'); } catch (e) {}
+            if (!seen) openIntro();
+            $('#intro-close, #intro-dismiss').click(closeIntro);
+            $('#info-btn').click(openIntro);
+            $modal.click(function(e) { if (e.target === this) closeIntro(); });
+            $(document).keydown(function(e) { if (e.key === 'Escape') closeIntro(); });
+
+            var HAMLET_AVATAR = '<span class="avatar avatar-bot" aria-hidden="true">'
+                + '<svg viewBox="24 4 80 102" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">'
+                +   '<path d="M44,22 L50,10 L58,18 L64,8 L70,18 L78,10 L84,22 Z"/>'
+                +   '<line x1="44" y1="22" x2="84" y2="22"/>'
+                +   '<path d="M32,60 C32,40 46,30 64,30 C82,30 96,40 96,60 L96,84 L86,90 L86,104 L78,104 L78,96 L50,96 L50,104 L42,104 L42,90 L32,84 Z"/>'
+                +   '<circle cx="48" cy="64" r="8"/>'
+                +   '<circle cx="80" cy="64" r="8"/>'
+                +   '<path d="M64,76 L61,84 L67,84 Z"/>'
+                +   '<line x1="42" y1="90" x2="86" y2="90"/>'
+                +   '<line x1="56" y1="90" x2="56" y2="96"/>'
+                +   '<line x1="64" y1="90" x2="64" y2="96"/>'
+                +   '<line x1="72" y1="90" x2="72" y2="96"/>'
+                + '</svg></span>';
+
+            var USER_AVATAR = '<span class="avatar avatar-user" aria-hidden="true">'
+                + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">'
+                +   '<circle cx="12" cy="8" r="4"/>'
+                +   '<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>'
+                + '</svg></span>';
+
+            function escapeHtml(s) { return $('<div>').text(s).html(); }
+            function scrollBottom() {
+                var c = $('#chat-container');
+                c.scrollTop(c[0].scrollHeight);
             }
 
-            function escapeHtml(s) {
-                return $('<div>').text(s).html();
+            function addUserMessage(text) {
+                var html = '<div class="message user-message">'
+                         + '<div class="bubble">' + escapeHtml(text) + '</div>'
+                         + USER_AVATAR
+                         + '</div>';
+                $('#chat-container').append(html);
+                scrollBottom();
+            }
+
+            function addBotMessage(quote, source) {
+                var html = '<div class="message bot-message">'
+                         + HAMLET_AVATAR
+                         + '<div class="bot-card">'
+                         +     '<div class="quote">' + escapeHtml(quote) + '</div>'
+                         +     '<div class="source">— ' + escapeHtml(source) + '</div>'
+                         + '</div>'
+                         + '</div>';
+                $('#chat-container').append(html);
+                scrollBottom();
             }
 
             $('#send-btn').click(function() {
                 var userMessage = $('#user-input').val();
                 if (userMessage.trim() !== '') {
-                    addMessage('You', escapeHtml(userMessage));
+                    addUserMessage(userMessage);
                     $.post('/get_response', {message: userMessage}, function(data) {
-                        var card = '<div class="bot-card">'
-                                 + '<div class="quote">' + escapeHtml(data.quote) + '</div>'
-                                 + '<div class="source">— ' + escapeHtml(data.source) + '</div>'
-                                 + '</div>';
-                        addMessage('HAMLET', card);
+                        addBotMessage(data.quote, data.source);
                     });
                     $('#user-input').val('');
                 }
