@@ -139,7 +139,7 @@ body {
     margin-bottom: var(--sp-3);
     line-height: 1.65;
     animation: fadeIn 180ms ease-out;
-    cursor: text;
+    cursor: default;
 }
 
 @keyframes fadeIn {
@@ -157,6 +157,7 @@ body {
     border-radius: var(--r-3);
     word-wrap: break-word;
     white-space: pre-wrap;
+    cursor: default;
 }
 
 /* Avatars — vertically centered with bubble */
@@ -192,6 +193,7 @@ body {
     padding: var(--sp-4);
     word-wrap: break-word;
     white-space: pre-wrap;
+    cursor: default;
 }
 .bot-card .source {
     margin-top: var(--sp-3);
@@ -413,7 +415,7 @@ body {
 .site-footer-link {
     display: inline-flex;
     align-items: center;
-    gap: var(--sp-1);
+    gap: var(--sp-3);
     color: var(--fg-muted);
     text-decoration: none;
     transition: color 120ms ease;

@@ -25,6 +25,27 @@ def preprocess(text):
 def get_sentiment(text):
     return TextBlob(text).sentiment.polarity
 
+ROMAN = {1: 'I', 2: 'II', 3: 'III', 4: 'IV', 5: 'V', 6: 'VI', 7: 'VII', 8: 'VIII', 9: 'IX', 10: 'X'}
+
+def format_source(quote):
+    t = quote.get('type', 'play')
+    lines = quote.get('lines')
+    if t == 'sonnet':
+        n = quote.get('number')
+        base = f'Sonnet {n}'
+        return f'{base} · {lines}' if lines else base
+    if t == 'poem':
+        work = quote.get('work', '')
+        return f'{work} · {lines}' if lines else work
+    work = quote.get('work', '')
+    act, scene = quote.get('act'), quote.get('scene')
+    if act and scene:
+        cite = f'{ROMAN.get(act, str(act))}.{ROMAN.get(scene, str(scene)).lower()}'
+        return f'{work} · {cite} · {lines}' if lines else f'{work} · {cite}'
+    if lines:
+        return f'{work} · {lines}'
+    return work
+
 def get_response(user_input):
     tokens = preprocess(user_input)
     user_sentiment = get_sentiment(user_input)
@@ -40,11 +61,10 @@ def get_response(user_input):
     if relevant_quotes:
         relevant_quotes.sort(key=lambda x: x[1])
         chosen_quote = random.choice(relevant_quotes[:3])[0]
-        return chosen_quote['text'], chosen_quote['play']
     else:
         sentiment_similar_quotes = sorted(quotes, key=lambda x: abs(user_sentiment - get_sentiment(x['text'])))
         chosen_quote = random.choice(sentiment_similar_quotes[:3])
-        return chosen_quote['text'], chosen_quote['play']
+    return chosen_quote['text'], format_source(chosen_quote)
 
 @app.route('/')
 def home():

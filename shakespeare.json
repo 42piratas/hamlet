@@ -1,950 +1,229 @@
 [
-  {
-    "text": "To be, or not to be: that is the question.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "All the world's a stage, and all the men and women merely players.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "The course of true love never did run smooth.",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "What's in a name? That which we call a rose by any other name would smell as sweet.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "If music be the food of love, play on.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "The lady doth protest too much, methinks.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Now is the winter of our discontent made glorious summer by this sun of York.",
-    "play": "Richard III"
-  },
-  {
-    "text": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "There is nothing either good or bad, but thinking makes it so.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Uneasy lies the head that wears a crown.",
-    "play": "Henry IV, Part II"
-  },
-  {
-    "text": "All that glitters is not gold.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "The fault, dear Brutus, is not in our stars, but in ourselves.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "How sharper than a serpent's tooth it is to have a thankless child!",
-    "play": "King Lear"
-  },
-  {
-    "text": "The evil that men do lives after them; The good is oft interred with their bones.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Brevity is the soul of wit.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "This above all: to thine own self be true.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge?",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Lord, what fools these mortals be!",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "The first thing we do, let's kill all the lawyers.",
-    "play": "Henry VI, Part II"
-  },
-  {
-    "text": "Off with his head!",
-    "play": "Richard III"
-  },
-  {
-    "text": "Alas, poor Yorick! I knew him, Horatio: a fellow of infinite jest, of most excellent fancy.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "But soft! What light through yonder window breaks? It is the east, and Juliet is the sun.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "O Romeo, Romeo! wherefore art thou Romeo?",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "Double, double toil and trouble; Fire burn, and cauldron bubble.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "Is this a dagger which I see before me, the handle toward my hand?",
-    "play": "Macbeth"
-  },
-  {
-    "text": "Out, damned spot! out, I say!",
-    "play": "Macbeth"
-  },
-  {
-    "text": "The better part of valor is discretion.",
-    "play": "Henry IV, Part I"
-  },
-  {
-    "text": "Full fathom five thy father lies, of his bones are coral made. Those are pearls that were his eyes. Nothing of him that doth fade, but doth suffer a sea-change into something rich and strange.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "We few, we happy few, we band of brothers.",
-    "play": "Henry V"
-  },
-  {
-    "text": "Once more unto the breach, dear friends, once more; Or close the wall up with our English dead.",
-    "play": "Henry V"
-  },
-  {
-    "text": "A horse! a horse! my kingdom for a horse!",
-    "play": "Richard III"
-  },
-  {
-    "text": "The quality of mercy is not strained. It droppeth as the gentle rain from heaven upon the place beneath.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "All the perfumes of Arabia will not sweeten this little hand.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "The lunatic, the lover, and the poet, are of imagination all compact.",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate.",
-    "play": "Sonnet 18"
-  },
-  {
-    "text": "O, she doth teach the torches to burn bright!",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "I am one who loved not wisely but too well.",
-    "play": "Othello"
-  },
-  {
-    "text": "The wheel is come full circle: I am here.",
-    "play": "King Lear"
-  },
-  {
-    "text": "How poor are they that have not patience! What wound did ever heal but by degrees?",
-    "play": "Othello"
-  },
-  {
-    "text": "The robbed that smiles, steals something from the thief.",
-    "play": "Othello"
-  },
-  {
-    "text": "There is a tide in the affairs of men, Which taken at the flood, leads on to fortune.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "What's done cannot be undone.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "I wasted time, and now doth time waste me.",
-    "play": "Richard II"
-  },
-  {
-    "text": "Have more than thou showest, speak less than thou knowest.",
-    "play": "King Lear"
-  },
-  {
-    "text": "Men at some time are masters of their fates: The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Words without thoughts never to heaven go.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Give every man thy ear, but few thy voice.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Wisely and slow; they stumble that run fast.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "Love all, trust a few, do wrong to none.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "In time we hate that which we often fear.",
-    "play": "Antony and Cleopatra"
-  },
-  {
-    "text": "Expectation is the root of all heartache.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "We know what we are, but know not what we may be.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "It is not in the stars to hold our destiny but in ourselves.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "They do not love that do not show their love.",
-    "play": "The Two Gentlemen of Verona"
-  },
-  {
-    "text": "My tongue will tell the anger of my heart, or else my heart concealing it will break.",
-    "play": "The Taming of the Shrew"
-  },
-  {
-    "text": "I like this place and willingly could waste my time in it.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "The sight of lovers feedeth those in love.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "I would not wish any companion in the world but you.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "Self-love, my liege, is not so vile a sin, as self-neglecting.",
-    "play": "Henry V"
-  },
-  {
-    "text": "To do a great right do a little wrong.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "No legacy is so rich as honesty.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "When words are scarce they are seldom spent in vain.",
-    "play": "Richard II"
-  },
-  {
-    "text": "Talking isn't doing. It is a kind of good deed to say well; and yet words are not deeds.",
-    "play": "Henry VIII"
-  },
-  {
-    "text": "Better three hours too soon than a minute too late.",
-    "play": "The Merry Wives of Windsor"
-  },
-  {
-    "text": "I bear a charmed life.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "How far that little candle throws its beams! So shines a good deed in a naughty world.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Let me be that I am and seek not to alter me.",
-    "play": "Much Ado About Nothing"
-  },
-  {
-    "text": "The miserable have no other medicine, but only hope.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "I am not bound to please thee with my answer.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Suspicion always haunts the guilty mind.",
-    "play": "Henry VI, Part III"
-  },
-  {
-    "text": "There's no art to find the mind's construction in the face.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "We cannot all be masters, nor all masters cannot be truly followed.",
-    "play": "Othello"
-  },
-  {
-    "text": "I had rather hear my dog bark at a crow, than a man swear he loves me.",
-    "play": "Much Ado About Nothing"
-  },
-  {
-    "text": "Foul deeds will rise, though all the earth o'erwhelm them, to men's eyes.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "The stroke of death is as a lover's pinch, which hurts and is desired.",
-    "play": "Antony and Cleopatra"
-  },
-  {
-    "text": "The devil can cite Scripture for his purpose.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Though she be but little, she is fierce!",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "These violent delights have violent ends.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "I do love nothing in the world so well as you: is not that strange?",
-    "play": "Much Ado About Nothing"
-  },
-  {
-    "text": "Reputation is an idle and most false imposition; oft got without merit, and lost without deserving.",
-    "play": "Othello"
-  },
-  {
-    "text": "Misery acquaints a man with strange bedfellows.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "Some rise by sin, and some by virtue fall.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "Time is very slow for those who wait.",
-    "play": "Othello"
-  },
-  {
-    "text": "Tis not enough to help the feeble up, but to support them after.",
-    "play": "Timon of Athens"
-  },
-  {
-    "text": "Sweet are the uses of adversity which, like the toad, ugly and venomous, wears yet a precious jewel in his head.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "Our bodies are our gardens to the which our wills are gardeners.",
-    "play": "Othello"
-  },
-  {
-    "text": "The peace of heaven is theirs that lift their swords, in such a just and charitable war.",
-    "play": "Henry IV, Part II"
-  },
-  {
-    "text": "Heat not a furnace for your foe so hot that it do singe yourself.",
-    "play": "Henry VIII"
-  },
-  {
-    "text": "Small cheer and great welcome makes a merry feast.",
-    "play": "The Comedy of Errors"
-  },
-  {
-    "text": "He that is giddy thinks the world turns round.",
-    "play": "The Taming of the Shrew"
-  },
-  {
-    "text": "I am a man more sinned against than sinning.",
-    "play": "King Lear"
-  },
-  {
-    "text": "The eyes are the window to your soul.",
-    "play": "Love's Labour's Lost"
-  },
-  {
-    "text": "My words fly up, my thoughts remain below: Words without thoughts never to heaven go.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "I will wear my heart upon my sleeve for daws to peck at.",
-    "play": "Othello"
-  },
-  {
-    "text": "Virtue itself turns vice, being misapplied, And vice sometime's by action dignified.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "The robb'd that smiles, steals something from the thief.",
-    "play": "Othello"
-  },
-  {
-    "text": "Sigh no more, ladies, sigh no more, Men were deceivers ever.",
-    "play": "Much Ado About Nothing"
-  },
-  {
-    "text": "I am not bound to please thee with my answer.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "All the world's a stage, And all the men and women merely players; They have their exits and their entrances; And one man in his time plays many parts.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "The undiscovered country from whose bourn no traveler returns.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "If we are true to ourselves, we can not be false to anyone.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "What's past is prologue.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "I'll not budge an inch.",
-    "play": "The Taming of the Shrew"
-  },
-  {
-    "text": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "I am ill at these numbers.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "The web of our life is of a mingled yarn, good and ill together.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "Love sought is good, but given unsought is better.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "The prince of darkness is a gentleman.",
-    "play": "King Lear"
-  },
-  {
-    "text": "Ambition should be made of sterner stuff.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "I am constant as the northern star.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Wisely and slow; they stumble that run fast.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "But, for my own part, it was Greek to me.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Beware the ides of March.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "This is the short and the long of it.",
-    "play": "The Merry Wives of Windsor"
-  },
-  {
-    "text": "Tempt not a desperate man.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "We have seen better days.",
-    "play": "Timon of Athens"
-  },
-  {
-    "text": "Frailty, thy name is woman!",
-    "play": "Hamlet"
-  },
-  {
-    "text": "How sharper than a serpent's tooth it is to have a thankless child!",
-    "play": "King Lear"
-  },
-  {
-    "text": "The lady protests too much, methinks.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Something is rotten in the state of Denmark.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "A horse! a horse! my kingdom for a horse!",
-    "play": "Richard III"
-  },
-  {
-    "text": "The better part of valor is discretion.",
-    "play": "Henry IV, Part 1"
-  },
-  {
-    "text": "To sleep: perchance to dream: ay, there's the rub.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "The game is up.",
-    "play": "Cymbeline"
-  },
-  {
-    "text": "Uneasy lies the head that wears a crown.",
-    "play": "Henry IV, Part 2"
-  },
-  {
-    "text": "All that glisters is not gold.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Friends, Romans, countrymen, lend me your ears.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Neither a borrower nor a lender be.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "The fault, dear Brutus, is not in our stars, but in ourselves.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "A plague on both your houses!",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "The strawberry grows underneath the nettle, and wholesome berries thrive and ripen best neighbored by fruit of baser quality.",
-    "play": "Henry V"
-  },
-  {
-    "text": "I do desire we may be better strangers.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "O, what a goodly outside falsehood hath!",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "I am not bound to please thee with my answer.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "The worst is not, So long as we can say, 'This is the worst.'",
-    "play": "King Lear"
-  },
-  {
-    "text": "I cannot tell what the dickens his name is.",
-    "play": "The Merry Wives of Windsor"
-  },
-  {
-    "text": "We are time's subjects, and time bids be gone.",
-    "play": "Henry IV, Part II"
-  },
-  {
-    "text": "What's gone and what's past help should be past grief.",
-    "play": "The Winter's Tale"
-  },
-  {
-    "text": "Tis not enough to help the feeble up, but to support them after.",
-    "play": "Timon of Athens"
-  },
-  {
-    "text": "Let's kill all the lawyers.",
-    "play": "Henry VI, Part II"
-  },
-  {
-    "text": "The smallest worm will turn being trodden on.",
-    "play": "Henry VI, Part III"
-  },
-  {
-    "text": "Thou art a votary to fond desire.",
-    "play": "The Merry Wives of Windsor"
-  },
-  {
-    "text": "I'll make assurance double sure.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "The tartness of his face sours ripe grapes.",
-    "play": "Coriolanus"
-  },
-  {
-    "text": "Is this a dagger which I see before me, The handle toward my hand?",
-    "play": "Macbeth"
-  },
-  {
-    "text": "The time of life is short; to spend that shortness basely were too long.",
-    "play": "Henry IV, Part I"
-  },
-  {
-    "text": "I am a feather for each wind that blows.",
-    "play": "The Winter's Tale"
-  },
-  {
-    "text": "I see that the fashion wears out more apparel than the man.",
-    "play": "Much Ado About Nothing"
-  },
-  {
-    "text": "Tis in ourselves that we are thus or thus.",
-    "play": "Othello"
-  },
-  {
-    "text": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "They say, best men are moulded out of faults, And, for the most, become much more the better For being a little bad.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "The better part of valor is discretion.",
-    "play": "Henry IV, Part I"
-  },
-  {
-    "text": "Men should be what they seem.",
-    "play": "Othello"
-  },
-  {
-    "text": "I have full cause of weeping, but this heart shall break into a hundred thousand flaws or ere I'll weep.",
-    "play": "King Lear"
-  },
-  {
-    "text": "Nature teaches beasts to know their friends.",
-    "play": "Coriolanus"
-  },
-  {
-    "text": "Wise men ne'er sit and wail their loss, but cheerily seek how to redress their harms.",
-    "play": "Henry VI, Part III"
-  },
-  {
-    "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "I am not what I am.",
-    "play": "Othello"
-  },
-  {
-    "text": "Our remedies oft in ourselves do lie.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "Give sorrow words; the grief that does not speak whispers the o'er-fraught heart and bids it break.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "Reputation is an idle and most false imposition; oft got without merit, and lost without deserving.",
-    "play": "Othello"
-  },
-  {
-    "text": "There is no darkness but ignorance.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "What's mine is yours, and what is yours is mine.",
-    "play": "Measure for Measure"
-  },
-  {
-    "text": "Lord, what fools these mortals be!",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "Lay on, Macduff, And damn'd be him that first cries, 'Hold, enough!'",
-    "play": "Macbeth"
-  },
-  {
-    "text": "There is a tide in the affairs of men, Which taken at the flood, leads on to fortune.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Love all, trust a few, do wrong to none.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "The course of true love never did run smooth.",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "Sweet mercy is nobility's true badge.",
-    "play": "Titus Andronicus"
-  },
-  {
-    "text": "To thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "What is past is prologue.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "Conscience doth make cowards of us all.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "I will praise any man that will praise me.",
-    "play": "Antony and Cleopatra"
-  },
-  {
-    "text": "To be wise and love exceeds man's might.",
-    "play": "Troilus and Cressida"
-  },
-  {
-    "text": "We know what we are, but know not what we may be.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Wisely and slow; they stumble that run fast.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "Give every man thy ear, but few thy voice.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Uneasy lies the head that wears a crown.",
-    "play": "Henry IV, Part II"
-  },
-  {
-    "text": "Love looks not with the eyes, but with the mind, And therefore is winged Cupid painted blind.",
-    "play": "A Midsummer Night's Dream"
-  },
-  {
-    "text": "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "There is nothing either good or bad, but thinking makes it so.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "All the world's a stage, and all the men and women merely players.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "The fault, dear Brutus, is not in our stars, but in ourselves.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "How sharper than a serpent's tooth it is to have a thankless child!",
-    "play": "King Lear"
-  },
-  {
-    "text": "The lady doth protest too much, methinks.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Now is the winter of our discontent made glorious summer by this sun of York.",
-    "play": "Richard III"
-  },
-  {
-    "text": "If music be the food of love, play on.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "All that glitters is not gold.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "What's in a name? That which we call a rose by any other name would smell as sweet.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "To be, or not to be: that is the question.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "Some are born great, some achieve greatness, and some have greatness thrust upon them.",
-    "play": "Twelfth Night"
-  },
-  {
-    "text": "Brevity is the soul of wit.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "This above all: to thine own self be true.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge?",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "Alas, poor Yorick! I knew him, Horatio: a fellow of infinite jest, of most excellent fancy.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "But soft! What light through yonder window breaks? It is the east, and Juliet is the sun.",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "O Romeo, Romeo! wherefore art thou Romeo?",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "Double, double toil and trouble; Fire burn, and cauldron bubble.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "Out, damned spot! out, I say!",
-    "play": "Macbeth"
-  },
-  {
-    "text": "A horse! a horse! my kingdom for a horse!",
-    "play": "Richard III"
-  },
-  {
-    "text": "The quality of mercy is not strained. It droppeth as the gentle rain from heaven upon the place beneath.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "All the perfumes of Arabia will not sweeten this little hand.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate.",
-    "play": "Sonnet 18"
-  },
-  {
-    "text": "O, she doth teach the torches to burn bright!",
-    "play": "Romeo and Juliet"
-  },
-  {
-    "text": "I am one who loved not wisely but too well.",
-    "play": "Othello"
-  },
-  {
-    "text": "The wheel is come full circle: I am here.",
-    "play": "King Lear"
-  },
-  {
-    "text": "How poor are they that have not patience! What wound did ever heal but by degrees?",
-    "play": "Othello"
-  },
-  {
-    "text": "The robbed that smiles, steals something from the thief.",
-    "play": "Othello"
-  },
-  {
-    "text": "What's done cannot be undone.",
-    "play": "Macbeth"
-  },
-  {
-    "text": "I wasted time, and now doth time waste me.",
-    "play": "Richard II"
-  },
-  {
-    "text": "Have more than thou showest, speak less than thou knowest.",
-    "play": "King Lear"
-  },
-  {
-    "text": "Men at some time are masters of their fates: The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.",
-    "play": "Julius Caesar"
-  },
-  {
-    "text": "Words without thoughts never to heaven go.",
-    "play": "Hamlet"
-  },
-  {
-    "text": "They do not love that do not show their love.",
-    "play": "The Two Gentlemen of Verona"
-  },
-  {
-    "text": "My tongue will tell the anger of my heart, or else my heart concealing it will break.",
-    "play": "The Taming of the Shrew"
-  },
-  {
-    "text": "I like this place and willingly could waste my time in it.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "The sight of lovers feedeth those in love.",
-    "play": "As You Like It"
-  },
-  {
-    "text": "I would not wish any companion in the world but you.",
-    "play": "The Tempest"
-  },
-  {
-    "text": "Self-love, my liege, is not so vile a sin, as self-neglecting.",
-    "play": "Henry V"
-  },
-  {
-    "text": "To do a great right do a little wrong.",
-    "play": "The Merchant of Venice"
-  },
-  {
-    "text": "No legacy is so rich as honesty.",
-    "play": "All's Well That Ends Well"
-  },
-  {
-    "text": "When words are scarce they are seldom spent in vain.",
-    "play": "Richard II"
-  },
-  {
-    "text": "Talking isn't doing. It is a kind of good deed to say well; and yet words are not deeds.",
-    "play": "Henry VIII"
-  },
-  {
-    "text": "Better three hours too soon than a minute too late.",
-    "play": "The Merry Wives of Windsor"
-  },
-  {
-    "text": "I bear a charmed life.",
-    "play": "Macbeth"
-  }
+  { "text": "To be, or not to be: that is the question.", "work": "Hamlet", "type": "play", "act": 3, "scene": 1, "lines": "55" },
+  { "text": "To sleep: perchance to dream: ay, there's the rub.", "work": "Hamlet", "type": "play", "act": 3, "scene": 1, "lines": "65" },
+  { "text": "The undiscovered country from whose bourn no traveler returns.", "work": "Hamlet", "type": "play", "act": 3, "scene": 1, "lines": "79-80" },
+  { "text": "Conscience doth make cowards of us all.", "work": "Hamlet", "type": "play", "act": 3, "scene": 1, "lines": "83" },
+  { "text": "The lady protests too much, methinks.", "work": "Hamlet", "type": "play", "act": 3, "scene": 2, "lines": "230" },
+  { "text": "There is nothing either good or bad, but thinking makes it so.", "work": "Hamlet", "type": "play", "act": 2, "scene": 2, "lines": "249-250" },
+  { "text": "Brevity is the soul of wit.", "work": "Hamlet", "type": "play", "act": 2, "scene": 2, "lines": "90" },
+  { "text": "This above all: to thine own self be true.", "work": "Hamlet", "type": "play", "act": 1, "scene": 3, "lines": "78" },
+  { "text": "To thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man.", "work": "Hamlet", "type": "play", "act": 1, "scene": 3, "lines": "78-80" },
+  { "text": "Neither a borrower nor a lender be.", "work": "Hamlet", "type": "play", "act": 1, "scene": 3, "lines": "75" },
+  { "text": "Give every man thy ear, but few thy voice.", "work": "Hamlet", "type": "play", "act": 1, "scene": 3, "lines": "68" },
+  { "text": "Alas, poor Yorick! I knew him, Horatio: a fellow of infinite jest, of most excellent fancy.", "work": "Hamlet", "type": "play", "act": 5, "scene": 1, "lines": "184-185" },
+  { "text": "Frailty, thy name is woman!", "work": "Hamlet", "type": "play", "act": 1, "scene": 2, "lines": "146" },
+  { "text": "Something is rotten in the state of Denmark.", "work": "Hamlet", "type": "play", "act": 1, "scene": 4, "lines": "90" },
+  { "text": "Foul deeds will rise, though all the earth o'erwhelm them, to men's eyes.", "work": "Hamlet", "type": "play", "act": 1, "scene": 2, "lines": "257-258" },
+  { "text": "We know what we are, but know not what we may be.", "work": "Hamlet", "type": "play", "act": 4, "scene": 5, "lines": "43-44" },
+  { "text": "My words fly up, my thoughts remain below: words without thoughts never to heaven go.", "work": "Hamlet", "type": "play", "act": 3, "scene": 3, "lines": "97-98" },
+  { "text": "I am ill at these numbers.", "work": "Hamlet", "type": "play", "act": 2, "scene": 2, "lines": "120" },
+
+  { "text": "All the world's a stage, and all the men and women merely players; they have their exits and their entrances; and one man in his time plays many parts.", "work": "As You Like It", "type": "play", "act": 2, "scene": 7, "lines": "139-142" },
+  { "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.", "work": "As You Like It", "type": "play", "act": 5, "scene": 1, "lines": "31-32" },
+  { "text": "Sweet are the uses of adversity which, like the toad, ugly and venomous, wears yet a precious jewel in his head.", "work": "As You Like It", "type": "play", "act": 2, "scene": 1, "lines": "12-14" },
+  { "text": "I do desire we may be better strangers.", "work": "As You Like It", "type": "play", "act": 3, "scene": 2, "lines": "275-276" },
+  { "text": "I like this place and willingly could waste my time in it.", "work": "As You Like It", "type": "play", "act": 2, "scene": 4, "lines": "94-95" },
+  { "text": "The sight of lovers feedeth those in love.", "work": "As You Like It", "type": "play", "act": 3, "scene": 4, "lines": "55" },
+
+  { "text": "The course of true love never did run smooth.", "work": "A Midsummer Night's Dream", "type": "play", "act": 1, "scene": 1, "lines": "134" },
+  { "text": "Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.", "work": "A Midsummer Night's Dream", "type": "play", "act": 1, "scene": 1, "lines": "234-235" },
+  { "text": "Lord, what fools these mortals be!", "work": "A Midsummer Night's Dream", "type": "play", "act": 3, "scene": 2, "lines": "115" },
+  { "text": "The lunatic, the lover, and the poet, are of imagination all compact.", "work": "A Midsummer Night's Dream", "type": "play", "act": 5, "scene": 1, "lines": "7-8" },
+  { "text": "Though she be but little, she is fierce.", "work": "A Midsummer Night's Dream", "type": "play", "act": 3, "scene": 2, "lines": "325" },
+
+  { "text": "What's in a name? That which we call a rose by any other name would smell as sweet.", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 2, "lines": "43-44" },
+  { "text": "But soft! What light through yonder window breaks? It is the east, and Juliet is the sun.", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 2, "lines": "2-3" },
+  { "text": "O Romeo, Romeo! wherefore art thou Romeo?", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 2, "lines": "33" },
+  { "text": "O, she doth teach the torches to burn bright!", "work": "Romeo and Juliet", "type": "play", "act": 1, "scene": 5, "lines": "43" },
+  { "text": "Wisely and slow; they stumble that run fast.", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 3, "lines": "94" },
+  { "text": "These violent delights have violent ends.", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 6, "lines": "9" },
+  { "text": "Virtue itself turns vice, being misapplied, and vice sometime's by action dignified.", "work": "Romeo and Juliet", "type": "play", "act": 2, "scene": 3, "lines": "17-18" },
+  { "text": "A plague on both your houses!", "work": "Romeo and Juliet", "type": "play", "act": 3, "scene": 1, "lines": "91" },
+  { "text": "Tempt not a desperate man.", "work": "Romeo and Juliet", "type": "play", "act": 5, "scene": 3, "lines": "59" },
+
+  { "text": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.", "work": "The Tempest", "type": "play", "act": 4, "scene": 1, "lines": "156-158" },
+  { "text": "Full fathom five thy father lies, of his bones are coral made. Those are pearls that were his eyes. Nothing of him that doth fade, but doth suffer a sea-change into something rich and strange.", "work": "The Tempest", "type": "play", "act": 1, "scene": 2, "lines": "397-403" },
+  { "text": "I would not wish any companion in the world but you.", "work": "The Tempest", "type": "play", "act": 3, "scene": 1, "lines": "54-55" },
+  { "text": "Misery acquaints a man with strange bedfellows.", "work": "The Tempest", "type": "play", "act": 2, "scene": 2, "lines": "39-40" },
+  { "text": "What's past is prologue.", "work": "The Tempest", "type": "play", "act": 2, "scene": 1, "lines": "253" },
+
+  { "text": "If music be the food of love, play on.", "work": "Twelfth Night", "type": "play", "act": 1, "scene": 1, "lines": "1" },
+  { "text": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.", "work": "Twelfth Night", "type": "play", "act": 2, "scene": 5, "lines": "144-146" },
+  { "text": "Love sought is good, but given unsought is better.", "work": "Twelfth Night", "type": "play", "act": 3, "scene": 1, "lines": "155-156" },
+  { "text": "There is no darkness but ignorance.", "work": "Twelfth Night", "type": "play", "act": 4, "scene": 2, "lines": "42-43" },
+
+  { "text": "Now is the winter of our discontent made glorious summer by this sun of York.", "work": "Richard III", "type": "play", "act": 1, "scene": 1, "lines": "1-2" },
+  { "text": "A horse! a horse! my kingdom for a horse!", "work": "Richard III", "type": "play", "act": 5, "scene": 4, "lines": "7" },
+  { "text": "Off with his head! Now, by Saint Paul I swear, I will not dine until I see the same.", "work": "Richard III", "type": "play", "act": 3, "scene": 4, "lines": "76-77" },
+
+  { "text": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.", "work": "Julius Caesar", "type": "play", "act": 3, "scene": 2, "lines": "74-75" },
+  { "text": "Cowards die many times before their deaths; the valiant never taste of death but once.", "work": "Julius Caesar", "type": "play", "act": 2, "scene": 2, "lines": "32-33" },
+  { "text": "Men at some time are masters of their fates: the fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.", "work": "Julius Caesar", "type": "play", "act": 1, "scene": 2, "lines": "139-141" },
+  { "text": "The evil that men do lives after them; the good is oft interred with their bones.", "work": "Julius Caesar", "type": "play", "act": 3, "scene": 2, "lines": "76-77" },
+  { "text": "There is a tide in the affairs of men, which taken at the flood, leads on to fortune.", "work": "Julius Caesar", "type": "play", "act": 4, "scene": 3, "lines": "218-220" },
+  { "text": "Ambition should be made of sterner stuff.", "work": "Julius Caesar", "type": "play", "act": 3, "scene": 2, "lines": "93" },
+  { "text": "I am constant as the northern star.", "work": "Julius Caesar", "type": "play", "act": 3, "scene": 1, "lines": "60" },
+  { "text": "But, for my own part, it was Greek to me.", "work": "Julius Caesar", "type": "play", "act": 1, "scene": 2, "lines": "282" },
+  { "text": "Beware the ides of March.", "work": "Julius Caesar", "type": "play", "act": 1, "scene": 2, "lines": "18" },
+
+  { "text": "Double, double toil and trouble; fire burn, and cauldron bubble.", "work": "Macbeth", "type": "play", "act": 4, "scene": 1, "lines": "10-11" },
+  { "text": "Is this a dagger which I see before me, the handle toward my hand?", "work": "Macbeth", "type": "play", "act": 2, "scene": 1, "lines": "33-34" },
+  { "text": "Out, damned spot! out, I say!", "work": "Macbeth", "type": "play", "act": 5, "scene": 1, "lines": "35" },
+  { "text": "All the perfumes of Arabia will not sweeten this little hand.", "work": "Macbeth", "type": "play", "act": 5, "scene": 1, "lines": "50-51" },
+  { "text": "What's done cannot be undone.", "work": "Macbeth", "type": "play", "act": 5, "scene": 1, "lines": "66-67" },
+  { "text": "I bear a charmed life.", "work": "Macbeth", "type": "play", "act": 5, "scene": 8, "lines": "12" },
+  { "text": "There's no art to find the mind's construction in the face.", "work": "Macbeth", "type": "play", "act": 1, "scene": 4, "lines": "13-14" },
+  { "text": "I'll make assurance double sure.", "work": "Macbeth", "type": "play", "act": 4, "scene": 1, "lines": "83" },
+  { "text": "Lay on, Macduff, and damn'd be him that first cries, 'Hold, enough!'", "work": "Macbeth", "type": "play", "act": 5, "scene": 8, "lines": "33-34" },
+  { "text": "Give sorrow words; the grief that does not speak whispers the o'er-fraught heart and bids it break.", "work": "Macbeth", "type": "play", "act": 4, "scene": 3, "lines": "209-210" },
+  { "text": "Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.", "work": "Macbeth", "type": "play", "act": 5, "scene": 5, "lines": "24-28" },
+
+  { "text": "All that glitters is not gold.", "work": "The Merchant of Venice", "type": "play", "act": 2, "scene": 7, "lines": "65" },
+  { "text": "If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge?", "work": "The Merchant of Venice", "type": "play", "act": 3, "scene": 1, "lines": "55-58" },
+  { "text": "The quality of mercy is not strained. It droppeth as the gentle rain from heaven upon the place beneath.", "work": "The Merchant of Venice", "type": "play", "act": 4, "scene": 1, "lines": "180-182" },
+  { "text": "How far that little candle throws its beams! So shines a good deed in a naughty world.", "work": "The Merchant of Venice", "type": "play", "act": 5, "scene": 1, "lines": "90-91" },
+  { "text": "I am not bound to please thee with my answer.", "work": "The Merchant of Venice", "type": "play", "act": 4, "scene": 1, "lines": "65" },
+  { "text": "To do a great right do a little wrong.", "work": "The Merchant of Venice", "type": "play", "act": 4, "scene": 1, "lines": "213" },
+  { "text": "The devil can cite Scripture for his purpose.", "work": "The Merchant of Venice", "type": "play", "act": 1, "scene": 3, "lines": "95" },
+  { "text": "O, what a goodly outside falsehood hath!", "work": "The Merchant of Venice", "type": "play", "act": 1, "scene": 3, "lines": "99" },
+
+  { "text": "I am one who loved not wisely but too well.", "work": "Othello", "type": "play", "act": 5, "scene": 2, "lines": "353" },
+  { "text": "How poor are they that have not patience! What wound did ever heal but by degrees?", "work": "Othello", "type": "play", "act": 2, "scene": 3, "lines": "376-377" },
+  { "text": "The robb'd that smiles, steals something from the thief.", "work": "Othello", "type": "play", "act": 1, "scene": 3, "lines": "221" },
+  { "text": "I will wear my heart upon my sleeve for daws to peck at.", "work": "Othello", "type": "play", "act": 1, "scene": 1, "lines": "65-66" },
+  { "text": "Reputation is an idle and most false imposition; oft got without merit, and lost without deserving.", "work": "Othello", "type": "play", "act": 2, "scene": 3, "lines": "272-274" },
+  { "text": "Our bodies are our gardens to the which our wills are gardeners.", "work": "Othello", "type": "play", "act": 1, "scene": 3, "lines": "319-320" },
+  { "text": "Tis in ourselves that we are thus or thus.", "work": "Othello", "type": "play", "act": 1, "scene": 3, "lines": "320" },
+  { "text": "We cannot all be masters, nor all masters cannot be truly followed.", "work": "Othello", "type": "play", "act": 1, "scene": 1, "lines": "46-47" },
+  { "text": "Men should be what they seem.", "work": "Othello", "type": "play", "act": 3, "scene": 3, "lines": "142" },
+  { "text": "I am not what I am.", "work": "Othello", "type": "play", "act": 1, "scene": 1, "lines": "71" },
+
+  { "text": "How sharper than a serpent's tooth it is to have a thankless child!", "work": "King Lear", "type": "play", "act": 1, "scene": 4, "lines": "288-289" },
+  { "text": "The wheel is come full circle: I am here.", "work": "King Lear", "type": "play", "act": 5, "scene": 3, "lines": "176" },
+  { "text": "Have more than thou showest, speak less than thou knowest.", "work": "King Lear", "type": "play", "act": 1, "scene": 4, "lines": "119-120" },
+  { "text": "I am a man more sinned against than sinning.", "work": "King Lear", "type": "play", "act": 3, "scene": 2, "lines": "59-60" },
+  { "text": "The prince of darkness is a gentleman.", "work": "King Lear", "type": "play", "act": 3, "scene": 4, "lines": "143" },
+  { "text": "The worst is not, so long as we can say, 'This is the worst.'", "work": "King Lear", "type": "play", "act": 4, "scene": 1, "lines": "27-28" },
+  { "text": "I have full cause of weeping, but this heart shall break into a hundred thousand flaws or ere I'll weep.", "work": "King Lear", "type": "play", "act": 2, "scene": 4, "lines": "288-289" },
+
+  { "text": "Uneasy lies the head that wears a crown.", "work": "Henry IV, Part 2", "type": "play", "act": 3, "scene": 1, "lines": "31" },
+  { "text": "We are time's subjects, and time bids be gone.", "work": "Henry IV, Part 2", "type": "play", "act": 1, "scene": 3, "lines": "110" },
+  { "text": "The peace of heaven is theirs that lift their swords in such a just and charitable war.", "work": "Henry IV, Part 2", "type": "play", "act": 4, "scene": 2, "lines": "55-56" },
+
+  { "text": "The better part of valor is discretion.", "work": "Henry IV, Part 1", "type": "play", "act": 5, "scene": 4, "lines": "119" },
+  { "text": "The time of life is short; to spend that shortness basely were too long.", "work": "Henry IV, Part 1", "type": "play", "act": 5, "scene": 2, "lines": "81-82" },
+
+  { "text": "We few, we happy few, we band of brothers.", "work": "Henry V", "type": "play", "act": 4, "scene": 3, "lines": "60" },
+  { "text": "Once more unto the breach, dear friends, once more; or close the wall up with our English dead.", "work": "Henry V", "type": "play", "act": 3, "scene": 1, "lines": "1-2" },
+  { "text": "Self-love, my liege, is not so vile a sin as self-neglecting.", "work": "Henry V", "type": "play", "act": 2, "scene": 4, "lines": null },
+  { "text": "The strawberry grows underneath the nettle, and wholesome berries thrive and ripen best neighbored by fruit of baser quality.", "work": "Henry V", "type": "play", "act": 1, "scene": 1, "lines": "60-62" },
+
+  { "text": "The first thing we do, let's kill all the lawyers.", "work": "Henry VI, Part 2", "type": "play", "act": 4, "scene": 2, "lines": "74" },
+
+  { "text": "Suspicion always haunts the guilty mind.", "work": "Henry VI, Part 3", "type": "play", "act": 5, "scene": 6, "lines": "11" },
+  { "text": "The smallest worm will turn being trodden on.", "work": "Henry VI, Part 3", "type": "play", "act": 2, "scene": 2, "lines": "17" },
+  { "text": "Wise men ne'er sit and wail their loss, but cheerily seek how to redress their harms.", "work": "Henry VI, Part 3", "type": "play", "act": 5, "scene": 4, "lines": "1-2" },
+
+  { "text": "'Tis a kind of good deed to say well; and yet words are no deeds.", "work": "Henry VIII", "type": "play", "act": 3, "scene": 2, "lines": "153-154" },
+  { "text": "Heat not a furnace for your foe so hot that it do singe yourself.", "work": "Henry VIII", "type": "play", "act": 1, "scene": 1, "lines": "140-141" },
+
+  { "text": "I wasted time, and now doth time waste me.", "work": "Richard II", "type": "play", "act": 5, "scene": 5, "lines": "49" },
+  { "text": "When words are scarce they are seldom spent in vain.", "work": "Richard II", "type": "play", "act": 2, "scene": 1, "lines": "7-8" },
+
+  { "text": "In time we hate that which we often fear.", "work": "Antony and Cleopatra", "type": "play", "act": 1, "scene": 3, "lines": "12-13" },
+  { "text": "The stroke of death is as a lover's pinch, which hurts and is desired.", "work": "Antony and Cleopatra", "type": "play", "act": 5, "scene": 2, "lines": "295-296" },
+  { "text": "I will praise any man that will praise me.", "work": "Antony and Cleopatra", "type": "play", "act": 2, "scene": 6, "lines": "88" },
+
+  { "text": "Let me be that I am and seek not to alter me.", "work": "Much Ado About Nothing", "type": "play", "act": 3, "scene": 2, "lines": "13" },
+  { "text": "I had rather hear my dog bark at a crow than a man swear he loves me.", "work": "Much Ado About Nothing", "type": "play", "act": 1, "scene": 1, "lines": "130-131" },
+  { "text": "I do love nothing in the world so well as you: is not that strange?", "work": "Much Ado About Nothing", "type": "play", "act": 4, "scene": 1, "lines": "267-268" },
+  { "text": "Sigh no more, ladies, sigh no more, men were deceivers ever.", "work": "Much Ado About Nothing", "type": "play", "act": 2, "scene": 3, "lines": "62-63" },
+  { "text": "I see that the fashion wears out more apparel than the man.", "work": "Much Ado About Nothing", "type": "play", "act": 3, "scene": 3, "lines": "137-138" },
+
+  { "text": "Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt.", "work": "Measure for Measure", "type": "play", "act": 1, "scene": 4, "lines": "78-79" },
+  { "text": "Some rise by sin, and some by virtue fall.", "work": "Measure for Measure", "type": "play", "act": 2, "scene": 1, "lines": "39" },
+  { "text": "The miserable have no other medicine, but only hope.", "work": "Measure for Measure", "type": "play", "act": 3, "scene": 1, "lines": "2-3" },
+  { "text": "What's mine is yours, and what is yours is mine.", "work": "Measure for Measure", "type": "play", "act": 5, "scene": 1, "lines": "546-547" },
+  { "text": "Best men are moulded out of faults, and, for the most, become much more the better for being a little bad.", "work": "Measure for Measure", "type": "play", "act": 5, "scene": 1, "lines": "493-495" },
+
+  { "text": "Love all, trust a few, do wrong to none.", "work": "All's Well That Ends Well", "type": "play", "act": 1, "scene": 1, "lines": "64-65" },
+  { "text": "No legacy is so rich as honesty.", "work": "All's Well That Ends Well", "type": "play", "act": 3, "scene": 5, "lines": "13-14" },
+  { "text": "The web of our life is of a mingled yarn, good and ill together.", "work": "All's Well That Ends Well", "type": "play", "act": 4, "scene": 3, "lines": "74-75" },
+  { "text": "Our remedies oft in ourselves do lie.", "work": "All's Well That Ends Well", "type": "play", "act": 1, "scene": 1, "lines": "221-222" },
+
+  { "text": "Better three hours too soon than a minute too late.", "work": "The Merry Wives of Windsor", "type": "play", "act": 2, "scene": 2, "lines": "323" },
+  { "text": "This is the short and the long of it.", "work": "The Merry Wives of Windsor", "type": "play", "act": 2, "scene": 2, "lines": "59" },
+  { "text": "I cannot tell what the dickens his name is.", "work": "The Merry Wives of Windsor", "type": "play", "act": 3, "scene": 2, "lines": "18-19" },
+
+  { "text": "They do not love that do not show their love.", "work": "The Two Gentlemen of Verona", "type": "play", "act": 1, "scene": 2, "lines": "31" },
+  { "text": "Thou art a votary to fond desire.", "work": "The Two Gentlemen of Verona", "type": "play", "act": 1, "scene": 1, "lines": "52" },
+
+  { "text": "My tongue will tell the anger of my heart, or else my heart concealing it will break.", "work": "The Taming of the Shrew", "type": "play", "act": 4, "scene": 3, "lines": "78-79" },
+  { "text": "He that is giddy thinks the world turns round.", "work": "The Taming of the Shrew", "type": "play", "act": 5, "scene": 2, "lines": "20-21" },
+  { "text": "I'll not budge an inch.", "work": "The Taming of the Shrew", "type": "play", "act": null, "scene": null, "lines": "Induction.i.14" },
+
+  { "text": "The tartness of his face sours ripe grapes.", "work": "Coriolanus", "type": "play", "act": 5, "scene": 4, "lines": "18" },
+  { "text": "Nature teaches beasts to know their friends.", "work": "Coriolanus", "type": "play", "act": 2, "scene": 1, "lines": "8" },
+
+  { "text": "We have seen better days.", "work": "Timon of Athens", "type": "play", "act": 4, "scene": 2, "lines": "27" },
+  { "text": "'Tis not enough to help the feeble up, but to support him after.", "work": "Timon of Athens", "type": "play", "act": 1, "scene": 1, "lines": "108-109" },
+
+  { "text": "The game is up.", "work": "Cymbeline", "type": "play", "act": 3, "scene": 3, "lines": "107" },
+
+  { "text": "Small cheer and great welcome makes a merry feast.", "work": "The Comedy of Errors", "type": "play", "act": 3, "scene": 1, "lines": "26" },
+
+  { "text": "Sweet mercy is nobility's true badge.", "work": "Titus Andronicus", "type": "play", "act": 1, "scene": 1, "lines": "119" },
+
+  { "text": "To be wise and love exceeds man's might.", "work": "Troilus and Cressida", "type": "play", "act": 3, "scene": 2, "lines": "155" },
+
+  { "text": "What's gone and what's past help should be past grief.", "work": "The Winter's Tale", "type": "play", "act": 3, "scene": 2, "lines": "224" },
+  { "text": "I am a feather for each wind that blows.", "work": "The Winter's Tale", "type": "play", "act": 2, "scene": 3, "lines": "117" },
+
+  { "text": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate.", "type": "sonnet", "number": 18, "lines": "1-2" },
+  { "text": "Rough winds do shake the darling buds of May, and summer's lease hath all too short a date.", "type": "sonnet", "number": 18, "lines": "3-4" },
+  { "text": "So long as men can breathe or eyes can see, so long lives this, and this gives life to thee.", "type": "sonnet", "number": 18, "lines": "13-14" },
+  { "text": "When in disgrace with fortune and men's eyes, I all alone beweep my outcast state.", "type": "sonnet", "number": 29, "lines": "1-2" },
+  { "text": "Haply I think on thee, and then my state, like to the lark at break of day arising from sullen earth, sings hymns at heaven's gate.", "type": "sonnet", "number": 29, "lines": "10-12" },
+  { "text": "When to the sessions of sweet silent thought I summon up remembrance of things past.", "type": "sonnet", "number": 30, "lines": "1-2" },
+  { "text": "Let me not to the marriage of true minds admit impediments.", "type": "sonnet", "number": 116, "lines": "1-2" },
+  { "text": "Love is not love which alters when it alteration finds, or bends with the remover to remove.", "type": "sonnet", "number": 116, "lines": "2-4" },
+  { "text": "Love's not Time's fool, though rosy lips and cheeks within his bending sickle's compass come.", "type": "sonnet", "number": 116, "lines": "9-10" },
+  { "text": "If this be error and upon me proved, I never writ, nor no man ever loved.", "type": "sonnet", "number": 116, "lines": "13-14" },
+  { "text": "Th' expense of spirit in a waste of shame is lust in action.", "type": "sonnet", "number": 129, "lines": "1-2" },
+  { "text": "My mistress' eyes are nothing like the sun; coral is far more red than her lips' red.", "type": "sonnet", "number": 130, "lines": "1-2" },
+  { "text": "And yet, by heaven, I think my love as rare as any she belied with false compare.", "type": "sonnet", "number": 130, "lines": "13-14" },
+  { "text": "When my love swears that she is made of truth, I do believe her, though I know she lies.", "type": "sonnet", "number": 138, "lines": "1-2" },
+  { "text": "Two loves I have of comfort and despair, which like two spirits do suggest me still.", "type": "sonnet", "number": 144, "lines": "1-2" },
+  { "text": "Poor soul, the centre of my sinful earth, thrall to these rebel powers that thee array.", "type": "sonnet", "number": 146, "lines": "1-2" },
+  { "text": "From fairest creatures we desire increase, that thereby beauty's rose might never die.", "type": "sonnet", "number": 1, "lines": "1-2" },
+  { "text": "When forty winters shall besiege thy brow, and dig deep trenches in thy beauty's field.", "type": "sonnet", "number": 2, "lines": "1-2" },
+  { "text": "Devouring Time, blunt thou the lion's paws, and make the earth devour her own sweet brood.", "type": "sonnet", "number": 19, "lines": "1-2" },
+  { "text": "Not marble, nor the gilded monuments of princes, shall outlive this powerful rhyme.", "type": "sonnet", "number": 55, "lines": "1-2" },
+  { "text": "Tired with all these, for restful death I cry.", "type": "sonnet", "number": 66, "lines": "1" },
+  { "text": "That time of year thou mayst in me behold when yellow leaves, or none, or few, do hang upon those boughs which shake against the cold.", "type": "sonnet", "number": 73, "lines": "1-3" },
+  { "text": "This thou perceiv'st, which makes thy love more strong, to love that well which thou must leave ere long.", "type": "sonnet", "number": 73, "lines": "13-14" },
+  { "text": "They that have power to hurt and will do none, that do not do the thing they most do show.", "type": "sonnet", "number": 94, "lines": "1-2" },
+  { "text": "For sweetest things turn sourest by their deeds; lilies that fester smell far worse than weeds.", "type": "sonnet", "number": 94, "lines": "13-14" },
+  { "text": "How like a winter hath my absence been from thee, the pleasure of the fleeting year!", "type": "sonnet", "number": 97, "lines": "1-2" },
+  { "text": "When in the chronicle of wasted time I see descriptions of the fairest wights.", "type": "sonnet", "number": 106, "lines": "1-2" },
+  { "text": "My love is as a fever, longing still for that which longer nurseth the disease.", "type": "sonnet", "number": 147, "lines": "1-2" },
+
+  { "text": "Love comforteth like sunshine after rain, but Lust's effect is tempest after sun.", "work": "Venus and Adonis", "type": "poem", "lines": "799-800" },
+  { "text": "Love is a spirit all compact of fire, not gross to sink, but light, and will aspire.", "work": "Venus and Adonis", "type": "poem", "lines": "149-150" },
+  { "text": "Beauty itself doth of itself persuade the eyes of men without an orator.", "work": "The Rape of Lucrece", "type": "poem", "lines": "29-30" },
+  { "text": "Time's glory is to calm contending kings, to unmask falsehood, and bring truth to light.", "work": "The Rape of Lucrece", "type": "poem", "lines": "939-940" },
+  { "text": "O Opportunity, thy guilt is great! 'Tis thou that execut'st the traitor's treason.", "work": "The Rape of Lucrece", "type": "poem", "lines": "876-877" },
+  { "text": "True grief is fond and testy as a child, who wayward once, his mood with naught agrees.", "work": "The Rape of Lucrece", "type": "poem", "lines": "1094-1095" },
+  { "text": "For sorrow, like a heavy-hanging bell, once set on ringing, with his own weight goes.", "work": "The Rape of Lucrece", "type": "poem", "lines": "1493-1494" },
+  { "text": "Love's arms are peace, 'gainst rule, 'gainst sense, 'gainst shame.", "work": "Venus and Adonis", "type": "poem", "lines": "1100" },
+  { "text": "Things out of hope are compassed oft with venturing, chiefly in love, whose leave exceeds commission.", "work": "Venus and Adonis", "type": "poem", "lines": "567-568" },
+  { "text": "O, what a war of looks was then between them!", "work": "Venus and Adonis", "type": "poem", "lines": "355" },
+
+  { "text": "Beauty, truth, and rarity, grace in all simplicity, here enclosed in cinders lie.", "work": "The Phoenix and the Turtle", "type": "poem", "lines": "53-55" },
+  { "text": "Love and constancy is dead; phoenix and the turtle fled in a mutual flame from hence.", "work": "The Phoenix and the Turtle", "type": "poem", "lines": "22-24" },
+  { "text": "Truth may seem, but cannot be; beauty brag, but 'tis not she; truth and beauty buried be.", "work": "The Phoenix and the Turtle", "type": "poem", "lines": "62-64" },
+
+  { "text": "All my offences that abroad you see are errors of the blood, none of the mind.", "work": "A Lover's Complaint", "type": "poem", "lines": "183-184" },
+  { "text": "Love made them not: with acture they may be, where neither party is nor true nor kind.", "work": "A Lover's Complaint", "type": "poem", "lines": "185-186" },
+  { "text": "O, that infected moisture of his eye, O, that false fire which in his cheek so glow'd.", "work": "A Lover's Complaint", "type": "poem", "lines": "323-324" }
 ]
