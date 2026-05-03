@@ -7,7 +7,7 @@ A chatbot that answers in Shakespeare quotes. Live at **<https://hamlet.42labs.i
 
 ### How it works
 
-Flask + jQuery front end; the server picks an apt quote from `shakespeare.json` using [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment + a hand-rolled tokenizer, then returns `{quote, source}`. Built in 2016, kept online as an artifact of the pre-LLM era.
+Flask + jQuery front end. The server picks an apt quote from `shakespeare.json` with a pre-LLM IR pipeline: [TF–IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) cosine similarity over a pre-computed corpus index, [Porter stemming](https://tartarus.org/martin/PorterStemmer/), [WordNet](https://wordnet.princeton.edu/) synonym expansion (NLTK), and [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment as a tiebreaker. Returns `{quote, source}`. Built in 2016, kept online as an artifact of the pre-LLM era.
 
 ### UI
 
