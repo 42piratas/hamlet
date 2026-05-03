@@ -43,10 +43,11 @@ body {
     align-items: center;
 }
 
-.chat-header img {
+.chat-header-icon {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    color: white;
 }
 
 .chat-container {

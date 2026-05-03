@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamlet</title>
-    <link rel="icon" href="{{ url_for('static', filename='img/skull-black.svg') }}" type="image/svg+xml">
+    <link rel="icon" href="{{ url_for('static', filename='img/icon.svg') }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -12,7 +12,18 @@
     <div class="app-container">
         <div class="chat-header">
             <div class="chat-header-content">
-                <img src="{{ url_for('static', filename='img/skull-white.svg') }}" alt="Hamlet's profile picture">
+                <svg class="chat-header-icon" viewBox="0 0 128 128" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-label="Hamlet" role="img">
+                    <path d="M44,22 L50,10 L58,18 L64,8 L70,18 L78,10 L84,22 Z"/>
+                    <line x1="44" y1="22" x2="84" y2="22"/>
+                    <path d="M32,60 C32,40 46,30 64,30 C82,30 96,40 96,60 L96,84 L86,90 L86,104 L78,104 L78,96 L50,96 L50,104 L42,104 L42,90 L32,84 Z"/>
+                    <circle cx="48" cy="64" r="8"/>
+                    <circle cx="80" cy="64" r="8"/>
+                    <path d="M64,76 L61,84 L67,84 Z"/>
+                    <line x1="42" y1="90" x2="86" y2="90"/>
+                    <line x1="56" y1="90" x2="56" y2="96"/>
+                    <line x1="64" y1="90" x2="64" y2="96"/>
+                    <line x1="72" y1="90" x2="72" y2="96"/>
+                </svg>
                 <span>Hamlet</span>
             </div>
         </div>
