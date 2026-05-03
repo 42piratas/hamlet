@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hamlet — a chatbot that answers in Shakespeare quotes.">
     <meta name="theme-color" content="#06101A">
-    <title>Hamlet</title>
+    <title>Hamlet | 42labs</title>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='favicons/favicon-192x192.png') }}">
     <link rel="apple-touch-icon" href="{{ url_for('static', filename='favicons/favicon-192x192.png') }}">
@@ -19,12 +19,14 @@
     <div class="app-container">
         <div class="chat-container" id="chat-container"></div>
         <div class="input-area">
-            <textarea id="user-input" rows="3" placeholder="Speak, and Hamlet will answer…" autocomplete="off"></textarea>
-            <button id="send-btn" type="button" aria-label="Send">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M3 11.5 21 4l-7.5 18-2.5-8.5L3 11.5Z"/>
-                </svg>
-            </button>
+            <div class="input-row">
+                <textarea id="user-input" rows="3" placeholder="Speak, I charge thee…" autocomplete="off"></textarea>
+                <button id="send-btn" type="button" aria-label="Send">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M3 11.5 21 4l-7.5 18-2.5-8.5L3 11.5Z"/>
+                    </svg>
+                </button>
+            </div>
         </div>
     </div>
 

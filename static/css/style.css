@@ -1,6 +1,7 @@
 /* =========================================================
-   Hamlet — Warp-style terminal · 42labs dark canon
-   Forced dark theme. Tokens, fonts and spacing mirror the
+   Hamlet — terminal-style chat · 42labs dark canon
+   Forced dark theme. Centered ~760px column on a panel surface
+   inside the page void. Tokens, fonts and spacing mirror the
    42labs design system (https://42labs.io/design).
    ========================================================= */
 
@@ -34,9 +35,12 @@
     /* Page padding — fluid, symmetrical on all sides */
     --pad: clamp(20px, 3vw, 32px);
 
+    /* Readable column cap — same scale as ChatGPT/Claude.ai */
+    --col: 760px;
+
     /* Semantic */
     --surface:        var(--void);
-    --surface-alt:    var(--panel);
+    --surface-chat:   var(--panel);
     --surface-muted:  var(--panel-alt);
     --surface-raised: var(--panel-raised);
     --border:         var(--divider);
@@ -66,6 +70,9 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    max-width: var(--col);
+    margin: 0 auto;
+    background: var(--surface-chat);
     border: 1px solid var(--border);
     border-radius: var(--r-3);
     overflow: hidden;
@@ -75,17 +82,19 @@ body {
 .chat-container {
     flex: 1;
     overflow-y: auto;
-    background: var(--surface);
     display: flex;
     flex-direction: column;
+    padding-top: var(--sp-6);
+    cursor: default;
 }
 
 .message {
-    padding: var(--sp-4);
+    padding: var(--sp-3) var(--sp-4);
     line-height: 1.65;
     animation: fadeIn 180ms ease-out;
     word-wrap: break-word;
     white-space: pre-wrap;
+    cursor: text;
 }
 
 @keyframes fadeIn {
@@ -108,11 +117,11 @@ body {
 }
 
 .bot-card {
-    background: var(--surface-alt);
+    background: var(--surface-raised);
     border: 1px solid var(--border);
     border-left: 2px solid var(--accent);
     border-radius: var(--r-3);
-    padding: var(--sp-6);
+    padding: var(--sp-4);
 }
 .bot-card .source {
     margin-top: var(--sp-3);
@@ -127,14 +136,17 @@ body {
 /* ---------- Input ---------- */
 .input-area {
     display: flex;
-    align-items: stretch;
-    gap: var(--sp-3);
     padding: var(--sp-6);
-    background: var(--surface);
     border-top: 1px solid var(--border);
     flex-shrink: 0;
 }
-.input-area::before {
+.input-row {
+    display: flex;
+    align-items: stretch;
+    gap: var(--sp-3);
+    width: 100%;
+}
+.input-row::before {
     content: '❯';
     font-family: var(--font-mono);
     font-weight: 600;
@@ -205,7 +217,5 @@ body {
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
     body { padding: var(--sp-3); }
-    .message,
-    .input-area,
-    .bot-card { padding: var(--sp-4); }
+    .input-area { padding: var(--sp-4); }
 }

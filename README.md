@@ -3,11 +3,25 @@
 > Polonius: What do you read, my lord?
 > Hamlet: Words, words, words.
 
-### About
+A chatbot that answers in Shakespeare quotes. Live at **<https://hamlet.42labs.io>**.
 
-Hamlet is a chatbot built with [NLTK](https://www.nltk.org) and [Textblob](https://textblob.readthedocs.io/en/dev/).
+### How it works
 
-Hamlet responds to user interactions with apt quotes from Shakespeare's plays, utilizing Natural Language Processing and Sentiment Analysis to select fitting responses.
+Flask + jQuery front end; the server picks an apt quote from `shakespeare.json` using [NLTK](https://www.nltk.org) and [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment + tokenization, then returns `{quote, source}`.
 
-[![forthebadge](http://forthebadge.com/images/badges/kinda-sfw.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
+### Design
+
+Forced dark theme, terminal-style chat, centered 760px column. Tokens, fonts, spacing follow the [42labs design system](https://42labs.io/design). See `static/css/style.css`.
+
+### Run locally
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+flask --app app run --port 5001
+```
+
+### Deploy
+
+Hosted on Vercel (`@vercel/python` builder, `vercel.json` rewrites all routes to `app.py`). Deploy the current branch with `vercel --prod`.
