@@ -1,10 +1,10 @@
-# Hamlet
-
-> Polonius: What do you read, my lord?
-> Hamlet: Words, words, words.
+# hamlet
 
 [![Project Status: Inactive](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+> Polonius: What do you read, my lord?
+> Hamlet: Words, words, words.
 
 A chatbot that answers in Shakespeare quotes. Live at **<https://hamlet.42labs.io>**.
 
@@ -14,11 +14,11 @@ A chatbot that answers in Shakespeare quotes. Live at **<https://hamlet.42labs.i
 > requests may sit indefinitely. The site works — that is the whole point of leaving
 > it up.
 
-### How it works
+## How it works
 
 Flask + jQuery front end. The server picks an apt quote from `shakespeare.json` with a pre-LLM IR pipeline: [TF–IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) cosine similarity over a pre-computed corpus index, [Porter stemming](https://tartarus.org/martin/PorterStemmer/), [WordNet](https://wordnet.princeton.edu/) synonym expansion (NLTK), and [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment as a tiebreaker. Returns `{quote, source}`.
 
-### Run locally
+## Run locally
 
 ```bash
 python3 -m venv .venv
@@ -27,6 +27,9 @@ pip install -r requirements.txt
 flask --app app run --port 5001
 ```
 
-### License
+## License
 
 [MIT](LICENSE). Do what you like with it.
+
+---
+If it earned its keep, [coffee is appreciated](https://buymeacoffee.com/42piratas). ☕
