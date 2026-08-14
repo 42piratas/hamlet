@@ -89,3 +89,9 @@ ENV/
 .ropeproject
 .vercel
 .env*.local
+
+# Claude Code -- local-only files stay untracked (kit hygiene)
+.claude/settings.local.json
+.claude/worktrees/
+.claude/hooks/*.local.json
+.worktrees/
