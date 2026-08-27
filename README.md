@@ -1,7 +1,6 @@
 # hamlet
 
 [![Project Status: Inactive](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 > Polonius: What do you read, my lord?
 > Hamlet: Words, words, words.
@@ -29,7 +28,7 @@ flask --app app run --port 5001
 
 ## License
 
-[MIT](LICENSE). Do what you like with it.
+Open source — [AGPL-3.0](LICENSE). Commercial — contact ahoy@42labs.io.
 
 ---
 If it earned its keep, [coffee is appreciated](https://buymeacoffee.com/42piratas). ☕
