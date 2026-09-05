@@ -10,7 +10,15 @@ this was done before LLMs. Nothing here is being developed; issues and pull requ
 indefinitely. The site working is the entire point of leaving it up. Do not scope feature work
 here without the operator asking for it.
 
-MIT licensed, and the README is the user documentation.
+**Dual-licensed** — AGPL-3.0 open source, commercial on request (`LICENSING.md`). It was published
+under MIT until 2026; the README is the user documentation.
+
+## How work flows
+
+Branch, work from a worktree under `.worktrees/`, open a PR against `main`. The LGTM gate and a
+Vercel preview deploy run on every PR. The `.claude/` CLU guards enforce worktree-only writes and
+refuse a self-merge, but only while a CLU run is active. `main` is not branch-protected, so the
+gate is advisory.
 
 ## Crew
 
@@ -20,7 +28,7 @@ arrives already knowing who it is, and reads this project to learn the project.
 | Role | What this project needs from it |
 |------|---------------------------------|
 | Engineering | Only what keeps the deploy alive — a dependency that breaks the build, nothing more |
-| Sysadmin | The Vercel deployment, the `hamlet.42labs.io` domain, branch protection and the LGTM gate |
+| Sysadmin | The Vercel deployment, the `hamlet.42labs.io` domain, branch protection and the gate |
 
 No architect, reviewer, content or data role is in use: nothing new is scoped here by design.
 
@@ -32,5 +40,8 @@ exists yet.
 - `README.md` — what it is, how the retrieval pipeline works, how to run it locally
 - `app.py` — the Flask server and the whole pipeline
 - `shakespeare.json` — the corpus
+- `data/` — the vendored NLTK/WordNet corpus. `app.py` puts it on `nltk.data.path`, and `vercel.json` ships it via `includeFiles` — deploy-critical, not a scratch directory
+- `templates/`, `static/` — the front end
+- `requirements.txt` — pinned dependencies
 - `vercel.json` — the deploy configuration
-- `MEMO-CODEX-URGENT.md` — untracked and open: LGTM gate and branch protection
+- `MEMO-CODEX-URGENT.md` — untracked. Its gate item is done; branch protection is still open
